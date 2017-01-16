@@ -22,3 +22,9 @@ function firstProgram() {
 // Your exercise: Write a piece of code using setTimeout that prints “Hello World!” every 10 seconds 
 // forever.
 
+function wildInterval () {
+    setTimeout(wildInterval, 10000)
+    console.log("Hello World!");
+}
+
+// setTimeout(wildInterval, 10000) //execution test
